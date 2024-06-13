@@ -1,0 +1,18 @@
+
+  <div class="card">
+    <h2 style="text-align: center">Overall analysis</h2>
+    <div style="display: flex;">
+      <div style="margin: 0 auto;">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="chartOptionsRecurring"
+          class="first-chart"
+        ></highcharts-chart>
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="chartOptionsAware"
+          class="second-chart"
+        ></highcharts-chart>
+      </div>
+    </div>
+  </div>

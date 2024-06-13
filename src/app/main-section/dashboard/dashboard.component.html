@@ -1,0 +1,22 @@
+<div id="main" class="col-sm-offset-3 col-sm-9">
+  <gridster [options]="options" class="gridster">
+    <gridster-item [item]="this.item1">
+      <app-pie-charts></app-pie-charts>
+    </gridster-item>
+    <gridster-item [item]="this.item2" >
+      <app-quick-stats></app-quick-stats>
+    </gridster-item>
+    <gridster-item [item]="this.item3" >
+      <app-performance-chart></app-performance-chart>
+    </gridster-item>
+    <gridster-item [item]="this.item4" >
+      <app-ration-stock-chart></app-ration-stock-chart>
+    </gridster-item>
+    <gridster-item [item]="this.item5" >
+      <app-real-time></app-real-time>
+    </gridster-item>
+    <gridster-item [item]="this.item6" >
+      <app-daily-usage-chart></app-daily-usage-chart>
+    </gridster-item>
+  </gridster>
+</div>

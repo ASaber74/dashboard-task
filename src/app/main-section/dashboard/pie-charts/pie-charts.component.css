@@ -1,0 +1,17 @@
+.first-chart {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+.second-chart {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+}

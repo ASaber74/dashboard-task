@@ -1,0 +1,19 @@
+#main {
+  padding-top: 7.2rem;
+  display: -webkit-flex;
+  display: flex;
+  /* align-items: stretch; */
+  flex-flow: row wrap;
+}
+
+.gridster {
+  background-color: #e5e9ec;
+}
+
+.gridster gridster-item {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
