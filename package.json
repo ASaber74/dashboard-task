@@ -24,6 +24,7 @@
     "highcharts": "^8.2.2",
     "highcharts-angular": "^2.9.0",
     "jquery": "^3.5.1",
+    "jqwidgets-ng": "^8.3.3",
     "ngx-bootstrap": "^6.2.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

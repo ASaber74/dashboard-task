@@ -20,6 +20,7 @@ import { RationStockChartComponent } from './main-section/dashboard/ration-stock
 import { RealTimeComponent } from './main-section/dashboard/real-time/real-time.component';
 import { QuickStatsComponent } from './main-section/dashboard/quick-stats/quick-stats.component';
 import { HighchartsChartModule } from 'highcharts-angular';
+import { UsersComponent } from './main-section/users/users.component';
 
 
 
@@ -40,6 +41,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
     RationStockChartComponent,
     RealTimeComponent,
     QuickStatsComponent,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,6 +51,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
     GridsterModule,
     HighchartsChartModule,
     FormsModule,
+    
 
   ],
   providers: [],
