@@ -1,6 +1,5 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { $ } from 'protractor';
 
 @Component({
   selector: 'app-audience',

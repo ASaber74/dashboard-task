@@ -21,10 +21,11 @@ import { RealTimeComponent } from './main-section/dashboard/real-time/real-time.
 import { QuickStatsComponent } from './main-section/dashboard/quick-stats/quick-stats.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { UsersComponent } from './main-section/users/users.component';
-
-
-
-
+import { jqxGridModule } from 'jqwidgets-ng/jqxgrid';
+import { jqxButtonModule } from 'jqwidgets-ng/jqxbuttons';
+import { jqxNumberInputModule } from 'jqwidgets-ng/jqxnumberinput';
+import { jqxInputModule } from 'jqwidgets-ng/jqxinput';
+import { jqxWindowModule } from 'jqwidgets-ng/jqxwindow';
 
 @NgModule({
   declarations: [
@@ -51,10 +52,13 @@ import { UsersComponent } from './main-section/users/users.component';
     GridsterModule,
     HighchartsChartModule,
     FormsModule,
-    
-
+    jqxGridModule,
+    jqxButtonModule,
+    jqxNumberInputModule,
+    jqxInputModule,
+    jqxWindowModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
